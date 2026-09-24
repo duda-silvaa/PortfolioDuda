@@ -1,26 +1,25 @@
-const menuBtn = document.getElementById("menu-btn");
+const menuToggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav");
 
-const navLinks = document.getElementById("nav-links");
+menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
 
+    const isOpen = nav.classList.contains("active");
 
-menuBtn.addEventListener("click", function () {
-
-    navLinks.classList.toggle("ativo");
-
+    menuToggle.setAttribute("aria-expanded", isOpen);
+    menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Fechar menu" : "Abrir menu"
+    );
 });
 
+const navLinks = document.querySelectorAll(".nav a");
 
-// FECHAR MENU AO CLICAR EM UM LINK
+navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+        nav.classList.remove("active");
 
-const links = document.querySelectorAll(".nav-links a");
-
-
-links.forEach(function (link) {
-
-    link.addEventListener("click", function () {
-
-        navLinks.classList.remove("ativo");
-
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Abrir menu");
     });
-
 });
