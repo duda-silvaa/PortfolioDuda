@@ -1,4 +1,4 @@
-Crie o arquivo `README.md` na raiz do projeto com este conteúdo:
+
 
 ````markdown
 # Maria Eduarda | Portfólio
