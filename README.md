@@ -62,7 +62,8 @@ Também é possível utilizar a extensão **Live Server** no Visual Studio Code.
 
 - Calculadora com JavaScript;
 - Desenho com movimento das mãos utilizando Python;
-- Dashboard de indicadores e contratos.
+- Dashboard de indicadores e contratos;
+- FluxoIA, central de solicitações com agentes de inteligência artificial.
 
 ## 📫 Contato
 
