@@ -7,11 +7,12 @@
 
     <title>Maria Eduarda | Desenvolvedora de Software</title>
 
-    <link rel="icon" href="images/dudsIcon.png">
+    <link rel="icon" href="images/close-tag.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
@@ -76,7 +77,11 @@
                 </div>
 
                 <div class="hero-image">
-                    <img src="images/euDuds.jpg" alt="Foto de Maria Eduarda">
+                    <div class="code-decoration code-decoration-top">&lt;build /&gt;</div>
+                    <div class="image-frame">
+                        <img src="images/euDuds.jpg" alt="Foto de Maria Eduarda">
+                    </div>
+                    <div class="code-decoration code-decoration-bottom">const future = true;</div>
                 </div>
 
             </div>
@@ -88,7 +93,7 @@
 
                 <p class="eyebrow">SOBRE MIM</p>
 
-                <h2>Conheça um pouco da minha trajetória</h2>
+                <h2>Conheça um pouco da minha trajetória <span class="heading-mark">/ sobre</span></h2>
 
                 <div class="about-content">
 
@@ -151,9 +156,9 @@
 
                 <p class="eyebrow">MINHA TRAJETÓRIA</p>
 
-                <h2>Experiências profissionais</h2>
+                <h2>Experiências profissionais <span class="heading-mark">/ trajetória</span></h2>
 
-                <div class="experience-grid">
+                <div class="experience-timeline">
 
                     <article class="experience-card">
                         <span class="experience-date">Maio 2026 – o momento</span>
@@ -245,7 +250,7 @@
 
                 <p class="eyebrow">TECNOLOGIAS E FERRAMENTAS</p>
 
-                <h2>Competências técnicas</h2>
+                <h2>Competências técnicas <span class="heading-mark">/ stack</span></h2>
 
                 <div class="skills-grid">
 
@@ -314,27 +319,83 @@
 
                 <p class="eyebrow">MEUS TRABALHOS</p>
 
-                <h2>Projetos</h2>
+                <h2>Projetos <span class="heading-mark">/ selected work</span></h2>
 
                 <div class="projects-grid">
 
-                    <article class="project-card">
+                     <article class="project-card">
 
-                        <img src="images/calcJs.png" alt="Calculadora desenvolvida com JavaScript">
+                        <img src="images/contratos.png" alt="Dashboard de contratos e indicadores">
 
                         <div class="project-content">
-                            <h3>Calculadora com JavaScript</h3>
+                            <h3>Dashboard de Indicadores e Contratos</h3>
 
                             <p>
-                                Projeto desenvolvido para praticar lógica de programação,
-                                manipulação do DOM, eventos e criação de interfaces
-                                utilizando HTML, CSS e JavaScript.
+                                Aplicação web voltada à visualização e organização
+                                de informações de contratos, com indicadores,
+                                filtros e apresentação de dados para facilitar
+                                o acompanhamento das informações.
                             </p>
 
                             <div class="tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Dashboards</span>
+                                <span>SQL</span>
+                                <span>IA generativa</span>
+                            </div>
+                        </div>
+
+                    </article>
+
+                      <article class="project-card">
+
+                        <img src="images/fluxoIA.png" alt="Dashboard do projeto FluxoIA">
+
+                        <div class="project-content">
+                            <h3>FluxoIA</h3>
+
+                            <p>
+                                Aplicação web que centraliza as comissões internas de
+                                pequenas equipes e utiliza três agentes de IA para
+                                supervisão de categoria, prioridade, resumo e próxima
+                                ação, sempre com supervisão humana, rastreabilidade e
+                                análises calculadas a partir dos dados.
+                            </p>
+
+                            <div class="tags">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>IA generativa</span>
+                                <span>Dados</span>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <img src="images/treinador.png" alt="Painel de uma plataforma de consultoria para treinadores">
+
+                        <div class="project-content">
+                            <h3>Plataforma de Consultoria para Treinadores</h3>
+
+                            <p>
+                                Plataforma web criada para ajudar treinadores a
+                                organizarem a rotina de acompanhamento dos alunos,
+                                controlarem treinos, visualizarem a frequência e
+                                acompanharem a evolução de cada pessoa em um único
+                                painel. O projeto combina uma experiência de uso
+                                moderna com recursos desenvolvidos com apoio de IA
+                                generativa.
+                            </p>
+
+                            <div class="tags">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                                <span>Supabase</span>
+                                <span>IA generativa</span>
                             </div>
                         </div>
 
@@ -357,55 +418,6 @@
                                 <span>Python</span>
                                 <span>OpenCV</span>
                                 <span>MediaPipe</span>
-                            </div>
-                        </div>
-
-                    </article>
-
-                    <article class="project-card">
-
-                        <img src="images/contratos.png" alt="Dashboard de contratos e indicadores">
-
-                        <div class="project-content">
-                            <h3>Dashboard de Indicadores e Contratos</h3>
-
-                            <p>
-                                Aplicação web voltada à visualização e organização
-                                de informações de contratos, com indicadores,
-                                filtros e apresentação de dados para facilitar
-                                o acompanhamento das informações.
-                            </p>
-
-                            <div class="tags">
-                                <span>React</span>
-                                <span>TypeScript</span>
-                                <span>Dashboards</span>
-                                <span>SQL</span>
-                            </div>
-                        </div>
-
-                    </article>
-
-                    <article class="project-card">
-
-                        <img src="images/fluxoIA.png" alt="Dashboard do projeto FluxoIA">
-
-                        <div class="project-content">
-                            <h3>FluxoIA</h3>
-
-                            <p>
-                                Aplicação web que centraliza as comissões internas de
-                                pequenas equipes e utiliza três agentes de IA para
-                                supervisão de categoria, prioridade, resumo e próxima
-                                ação, sempre com supervisão humana, rastreabilidade e
-                                análises calculadas a partir dos dados.
-                            </p>
-
-                            <div class="tags">
-                                <span>React</span>
-                                <span>TypeScript</span>
-                                <span>IA generativa</span>
-                                <span>Dados</span>
                             </div>
                         </div>
 

@@ -60,7 +60,7 @@ Também é possível utilizar a extensão **Live Server** no Visual Studio Code.
 
 ## 📌 Projetos apresentados
 
-- Calculadora com JavaScript;
+- Plataforma de consultoria para treinadores;
 - Desenho com movimento das mãos utilizando Python;
 - Dashboard de indicadores e contratos;
 - FluxoIA, central de solicitações com agentes de inteligência artificial.
